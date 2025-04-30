@@ -35,3 +35,4 @@ IFS="|" read ATOMIC_NUMBER SYMBOL NAME TYPE MASS MELT BOIL <<< "$ELEMENT"
 # Display the output
 echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $MASS amu. $NAME has a melting point of $MELT celsius and a boiling point of $BOIL celsius."
 Updated element.sh to handle more queries
+Updated element.sh to handle more queries
