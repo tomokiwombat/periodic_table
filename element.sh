@@ -2,6 +2,8 @@
 
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
+# This script retrieves information about a chemical element by atomic number, symbol, or name
+
 # Check if an argument was provided
 if [[ -z $1 ]]; then
   echo "Please provide an element as an argument."
